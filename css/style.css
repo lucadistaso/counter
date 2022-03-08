@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(103,103,102);
+    background: linear-gradient(rgba(103,103,102,1) 33%, rgba(255,255,255,1) 100%);
+}
+#contatore{
+    width:300px;
+    height:355px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+    background-color: #b2b2b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+#number{
+    width:225px;
+    height:145px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald';
+    font-size:50px;
+    font-weight: bold;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+    border-radius: 10%;
+}
+#pulsanti{
+    margin-top:50px;
+    display: flex;
+}
+button{
+    width:70px;
+    height:70px;
+    outline:none;
+    border:none;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald';
+    font-size:60px;
+    margin:0 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    cursor:pointer;
+    transition:all 0.3s ease-in-out;
+    border-radius: 30%;
+}
+
+button > img {
+  width:30;
+   height: 30;
+
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+button:active{
+    background-color: #cccccc;
+}
